@@ -1,0 +1,7 @@
+exclude: ['Gemfile', 'Gemfile.lock', '*.sh']
+permalink: /:title/
+name: Metcalf Built
+tagline: the work of Ian Metcalf
+url: 'https://www.metcalfbuilt.com'
+author: Ian Metcalf
+copyright: All rights reserved.
