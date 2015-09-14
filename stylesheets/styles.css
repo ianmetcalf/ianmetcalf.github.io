@@ -204,3 +204,31 @@ footer {
     color:#444;
   }
 }
+
+.resume .row {
+  margin-bottom: 5px;
+  clear: both;
+}
+
+.resume .row .name {
+  font-weight: 700;
+  color: #222;
+}
+
+.resume .row .org {
+  line-height: 1.15em;
+  font-size: 1.15em;
+  color: #393939;
+}
+
+.resume .row .when {
+  float: right;
+}
+
+.resume ul {
+  margin-bottom: 15px;
+}
+
+.resume ul p {
+  margin-bottom: 10px;
+}

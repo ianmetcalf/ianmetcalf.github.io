@@ -1,0 +1,139 @@
+{
+  "name": "Ian Metcalf",
+  "sections": [
+    {
+      "name": "Technologies",
+      "id": "technologies",
+      "list": [
+        {
+          "name": "Backbone, Marionette and RequireJS",
+          "bullets": [
+            "Used to create customer facing single page application for solar monitoring product."
+          ]
+        },
+        {
+          "name": "Node.js",
+          "bullets": [
+            "Used to create server for single page application that provided a consistent proxy api to backend services.",
+            "Used to interface Raspberry PI and Beagle Bone Black with onewire temperature and IO modules."
+          ]
+        },
+        {
+          "name": "Ruby",
+          "bullets": [
+            "Used to create command line tool for combining component firmware into production firmware for Campbell Scientific dataloggers."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Employment History",
+      "id": "employment",
+      "list": [
+        {
+          "org": "Draker, Inc.",
+          "location": "Burlington Vermont",
+          "when": "July 2010 - August 2015",
+          "roles": [
+            {
+              "name": "Front End Developer",
+              "bullets": [
+                "Architected and lead development of new front end interface for core product."
+              ]
+            },
+            {
+              "name": "Firmware Engineer",
+              "bullets": [
+                "Overhauled firmware library and developed tooling to streamline production deployment."
+              ]
+            },
+            {
+              "name": "Field Service Engineer",
+              "bullets": [
+                "Formalized solar commissioning process and provided internal and external training."
+              ]
+            }
+          ]
+        },
+        {
+          "org": "Reiss Building & Renovation",
+          "location": "Hinesburg Vermont",
+          "when": "October 2006 - August 2009",
+          "roles": [
+            {
+              "name": "Solar Hot Water Installer",
+              "bullets": [
+                "Managed solar hot water system integration in both new and existing homes.",
+                "Designed and installed experimental solar hot water based space heating system."
+              ]
+            },
+            {
+              "name": "Carpenter",
+              "bullets": [
+                "Actively involved in construction of six home energy efficient community."
+              ]
+            }
+          ]
+        },
+        {
+          "org": "Ferizzi Construction",
+          "location": "Germansville Pennsylvania",
+          "when": "Summer 2004"
+        },
+        {
+          "org": "BHB Construction",
+          "location": "Foglesville Pennsylvania",
+          "when": "Summer 2001 & 2002"
+        },
+        {
+          "org": "Blue Mountain Nursery",
+          "location": "New Tripoli Pennsylvania",
+          "when": "Summer 1999 & 2000"
+        }
+      ]
+    },
+
+    {
+      "name": "Education",
+      "id": "education",
+      "list": [
+        {
+          "org": "Rensselear Polytechnic Institue",
+          "location": "Troy New York",
+          "when": "September 2002 - June 2006",
+          "roles": [
+            {
+              "name": "B.S., Civil Engineering",
+              "bullets": [
+                "Concentration in structural engineering and construction management.",
+                "Member of Chi Epsilon, national civil engineering honor society."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Continuing Education",
+      "id": "continuing",
+      "list": [
+        {
+          "org": "Vermont Code Camp",
+          "location": "Burlington Vermont",
+          "when": "Fall 2013, 2014 & 2015"
+        },
+        {
+          "org": "NodeConf",
+          "location": "Walker Creek Ranch California",
+          "when": "Summer 2014"
+        },
+        {
+          "org": "Burlington Ruby Conference",
+          "location": "Burlington Vermont",
+          "when": "Summer 2012 & 2014"
+        }
+      ]
+    }
+  ]
+}

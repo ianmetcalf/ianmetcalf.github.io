@@ -1,0 +1,65 @@
+---
+layout: main
+title: Resume
+permalink: /resume/
+---
+
+<article class="resume">
+
+  {% for section in site.data.resume.sections %}
+  <section id="{{ section.id }}">
+    <h2>{{ section.name }}</h2>
+
+    {% for item in section.list %}
+    <div class="row">
+
+      {% if item.name %}
+      <span class="name">{{ item.name }}</span>
+
+      {% elsif item.org %}
+      <span class="org">{{ item.org }}</span>
+      <span class="location">{{ item.location }}</span>
+      <span class="when">{{ item.when }}</span>
+
+      {% endif %}
+    </div>
+
+    <div class="row">
+
+      {% if item.bullets %}
+      <ul class="bullets">
+        {% for bullet in item.bullets %}
+        <li>{{ bullet | markdownify }}</li>
+        {% endfor %}
+      </ul>
+
+      {% elsif item.roles %}
+
+      {% for role in item.roles %}
+      <div class="role">
+        <div class="row">
+          <span class="name">{{ role.name }}</span>
+        </div>
+
+        {% if role.bullets %}
+        <ul class="bullets">
+          {% for bullet in role.bullets %}
+          <li>{{ bullet | markdownify }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+      </div>
+      {% endfor %}
+
+      {% endif %}
+    </div>
+    {% endfor %}
+
+  </section>
+  {% endfor %}
+
+  <section id="references">
+    References available upon request
+  </section>
+</article>

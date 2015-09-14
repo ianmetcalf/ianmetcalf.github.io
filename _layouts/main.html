@@ -16,6 +16,13 @@ layout: default
     <i class="fa fa-github-alt"></i>
     <a href="https://github.com/ianmetcalf">github.com/ianmetcalf</a>
   </p>
+
+  {% unless page.url contains 'resume' %}
+  <p class="link">
+    <i class="fa fa-file-text"></i>
+    <a href="/resume/">resume</a></p>
+  </p>
+  {% endunless %}
 </header>
 
 <main>
