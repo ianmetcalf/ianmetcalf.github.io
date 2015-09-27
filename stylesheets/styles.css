@@ -107,6 +107,10 @@ header h1 .tagline {
   font-size: 60%;
 }
 
+header .fa {
+  margin: 0 5px;
+}
+
 strong {
   color:#222;
   font-weight:700;
