@@ -3,13 +3,21 @@ layout: default
 ---
 
 <header>
-  <h1 class="name">{{ site.name }} <span class="tagline">{{ site.tagline }}</span></h1>
+  <h1 class="title">
+    {% if page.url contains 'resume' %}
+    <span class="noprint">
+    {% endif %}
+    {{ site.name }}<span class="tagline"> {{ site.tagline }}</span>
+    {% if page.url contains 'resume' %}
+    </span>
+    <span class="printonly">
+    {{ site.author }}
+    </span>
+    {% endif %}
+  </h1>
 
-  <p class="bio">I'm a carpenter and coder living with my family in Winooski Vermont.</p>
-
-  <p class="link">
-    <i class="fa fa-envelope"></i>
-    <a href="mailto:%69%61%6e@%6d%65%74%63%61%6c%66%62%75%69%6c%74.%63%6f%6d">ian@metcalfbuilt.com</a>
+  <p class="bio">
+    I'm a software developer living with my family in Vermont with a passion for building things.
   </p>
 
   <p class="link">
@@ -17,18 +25,21 @@ layout: default
     <a href="https://github.com/ianmetcalf">github.com/ianmetcalf</a>
   </p>
 
-  {% unless page.url contains 'resume' %}
   <p class="link">
-    <i class="fa fa-file-text"></i>
-    <a href="/resume/">resume</a></p>
+    <i class="fa fa-envelope"></i>
+    <a href="mailto:%69%61%6e@%6d%65%74%63%61%6c%66%62%75%69%6c%74.%63%6f%6d">ian@metcalfbuilt.com</a>
   </p>
-  {% endunless %}
+
+  <p class="link noprint">
+    <i class="fa fa-file-text"></i>
+    <a href="/resume/">resume</a>
+  </p>
 </header>
 
 <main>
   {{ content }}
 </main>
 
-<footer>
+<footer class="noprint">
   <p><small>Hosted on GitHub Pages &mdash; Original theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
 </footer>
