@@ -6,22 +6,28 @@
       "id": "technologies",
       "list": [
         {
-          "name": "Backbone, Marionette and RequireJS",
+          "name": "Javascript and Redux",
           "bullets": [
-            "Used to create customer facing single page application for solar monitoring product."
+            "Used to create single page applications with predictable behavior."
           ]
         },
         {
           "name": "Node.js",
           "bullets": [
-            "Used to create server for single page application that provided a consistent proxy api to backend services.",
-            "Used to interface Raspberry PI and Beagle Bone Black with onewire temperature and IO modules."
+            "Used to create backend services for single page applications.",
+            "Used to create command line tools automating processes."
           ]
         },
         {
-          "name": "Ruby",
+          "name": "Serverless Framework",
           "bullets": [
-            "Used to create command line tool for combining component firmware into production firmware for Campbell Scientific dataloggers."
+            "Used to create backend for data processing."
+          ]
+        },
+        {
+          "name": "Amazon Web Services",
+          "bullets": [
+            "Used to build autoscaling, low maintainance infrastructure."
           ]
         }
       ]
@@ -30,6 +36,21 @@
       "name": "Employment History",
       "id": "employment",
       "list": [
+        {
+          "org": "GroundWork Renewables, Inc.",
+          "location": "Sand City California",
+          "when": "September 2015 - Present",
+          "roles": [
+            {
+              "name": "Lead Software Developer",
+              "bullets": [
+                "Architected and built data ingest and processing infrastructure.",
+                "Built web based tools for provisioning and managing hardware.",
+                "Developed new data aquisition platform."
+              ]
+            }
+          ]
+        },
         {
           "org": "Draker, Inc.",
           "location": "Burlington Vermont",
@@ -61,34 +82,12 @@
           "when": "October 2006 - August 2009",
           "roles": [
             {
-              "name": "Solar Hot Water Installer",
-              "bullets": [
-                "Managed solar hot water system integration in both new and existing homes.",
-                "Designed and installed experimental solar hot water based space heating system."
-              ]
-            },
-            {
               "name": "Carpenter",
               "bullets": [
-                "Actively involved in construction of six home energy efficient community."
+                "Worked on crew building homes for small energy efficient community."
               ]
             }
           ]
-        },
-        {
-          "org": "Ferizzi Construction",
-          "location": "Germansville Pennsylvania",
-          "when": "Summer 2004"
-        },
-        {
-          "org": "BHB Construction",
-          "location": "Foglesville Pennsylvania",
-          "when": "Summer 2001 & 2002"
-        },
-        {
-          "org": "Blue Mountain Nursery",
-          "location": "New Tripoli Pennsylvania",
-          "when": "Summer 1999 & 2000"
         }
       ]
     },
@@ -121,17 +120,12 @@
         {
           "org": "Vermont Code Camp",
           "location": "Burlington Vermont",
-          "when": "Fall 2013, 2014 & 2015"
+          "when": "Annually 2013 through present"
         },
         {
           "org": "NodeConf",
           "location": "Walker Creek Ranch California",
           "when": "Summer 2014"
-        },
-        {
-          "org": "Burlington Ruby Conference",
-          "location": "Burlington Vermont",
-          "when": "Summer 2012 & 2014"
         }
       ]
     }
